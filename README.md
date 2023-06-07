@@ -37,16 +37,15 @@ Generate the three-regime phase plots by varying **temperature** and **load**
 ```bash
 cd src/three_regime_taxonomy/{training_epochs, batch_size}
 python scripts/write_experiments.py \
-						--ckpt-path {your_checkpoints_path} \
+            --ckpt-path {your_checkpoints_path} \
             --data-path {your_dataset_path} \
             --all \
             --earlystop-epoch-lst 10 20 ... 160 \         # Varying temperature via training epochs 
             # OR
             --batch-size-lst 16 32 ... 512 \              # Varying temperature via batch size
-      		  # OR
-      		  --optimizer 'SAM' --rho-lst 0.1 0.2 ... 0.8 \ # Varying temperature via SAM rho
-            --prune-ratio-lst 0.95 0.94 ... 0.2 \         # Varying load via model density (pruning ratio)
-            
+            # OR
+            --optimizer 'SAM' --rho-lst 0.1 0.2 ... 0.8 \ # Varying temperature via SAM rho
+            --prune-ratio-lst 0.95 0.94 ... 0.2 \         # Varying load via model density (pruning ratio)  
 bash scripts/three_regime.sh
 ```
 
