@@ -7,13 +7,13 @@
 We build a three-regime model by taxonomizing the global structure of the pruned NN loss landscape. Our model reveals that the dichotomous effect of high temperature is associated with transitions between distinct types of global structures in the post-pruned model. Our new insights lead to new practical approaches of hyperparameter tuning and model selection to improve pruning.  
 Please see the full paper on [ArXiv](https://arxiv.org/abs/2305.18383).
 
-<img src="https://github.com/YefanZhou/ThreeRegimePruning/blob/main/visualization/figure1.png" alt="Image description" width="1000" height="320">
+<img src="https://github.com/YefanZhou/ThreeRegimePruning/blob/main/visualization/figure1.png" alt="Image description" width="1000" height="290">
 
 **(Figure 1 Overview of three-regime model.)**  The three regimes of pruning obtained by varying temperature-like parameters (in the dense pre-pruned model) and load-like parameters (in the sparse post-pruned model).
 
 
 
-<img src="https://github.com/YefanZhou/ThreeRegimePruning/blob/main/visualization/figure2.png" alt="Image description" width="1000" height="210">
+<img src="https://github.com/YefanZhou/ThreeRegimePruning/blob/main/visualization/figure2.png" alt="Image description" width="1000" height="190">
 
 **(Figure 2 Empirical Results.)**  Partitioning the 2D model density (load) – training epoch (temperature) diagram into three regimes. Models are trained with PreResNet-20 on CIFAR-10.
 
