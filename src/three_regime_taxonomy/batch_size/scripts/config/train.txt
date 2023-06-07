@@ -1,0 +1,1 @@
+cv cifar10 preresnet 20 32 1 SAM 0.1 train 40 1 0 62400 0.6

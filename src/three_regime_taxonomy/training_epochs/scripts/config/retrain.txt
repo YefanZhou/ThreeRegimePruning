@@ -1,0 +1,4 @@
+cv cifar10 preresnet 20 64 1 1 SGD 0.1 prune retrain 1 0 10 unif 0.95 160
+cv cifar10 preresnet 20 64 1 2 SGD 0.1 prune retrain 1 0 10 unif 0.95 160
+cv cifar10 preresnet 20 64 2 1 SGD 0.1 prune retrain 1 0 10 unif 0.95 160
+cv cifar10 preresnet 20 64 2 2 SGD 0.1 prune retrain 1 0 10 unif 0.95 160

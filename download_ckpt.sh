@@ -1,0 +1,2 @@
+gdown 1VB0ZDy-AqvcfpdO5xCyPTEoo4lxXqJWZ
+unzip checkpoints_public.zip

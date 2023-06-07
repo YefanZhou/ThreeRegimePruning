@@ -1,0 +1,2 @@
+cv cifar10 preresnet 20 64 1 SGD 0.1 train prune 1 0 10 unif 0.95
+cv cifar10 preresnet 20 64 2 SGD 0.1 train prune 1 0 10 unif 0.95
